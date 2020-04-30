@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_bag"
+    tools:context="com.example.coyi.walter.BAG">
+
+    <RelativeLayout
+        android:layout_width="313dp"
+        android:layout_height="597dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/good1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn_x"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="45dp"
+            android:onClick="toBAG1"
+            app:srcCompat="@drawable/bag_1"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/good2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/good1"
+            android:layout_toEndOf="@+id/good5"
+            android:onClick="toBAG2"
+            app:srcCompat="@drawable/bag_2"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/good3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/good1"
+            android:layout_below="@+id/good1"
+            android:layout_marginTop="32dp"
+            android:onClick="toBAG3"
+            app:srcCompat="@drawable/bag_3"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/good4"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/good2"
+            android:layout_alignTop="@+id/good3"
+            android:onClick="toBAG4"
+            app:srcCompat="@drawable/bag_4"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/good5"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/good3"
+            android:layout_below="@+id/good3"
+            android:layout_marginTop="30dp"
+            android:onClick="toBAG5"
+            app:srcCompat="@drawable/bag_5"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/good6"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/good4"
+            android:layout_alignTop="@+id/good5"
+            android:onClick="toBAG6"
+            app:srcCompat="@drawable/bag_6"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/btn_x"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="136dp"
+            android:layout_toEndOf="@+id/good4"
+            android:onClick="toGAME"
+            app:srcCompat="@drawable/ic_x"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

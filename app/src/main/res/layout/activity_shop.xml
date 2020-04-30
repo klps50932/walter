@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_shop"
+    tools:context="com.example.coyi.walter.SHOP">
+
+    <RelativeLayout
+        android:layout_width="357dp"
+        android:layout_height="551dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/good1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_below="@+id/btn_x"
+            android:layout_marginEnd="22dp"
+            android:layout_marginTop="77dp"
+            android:layout_toStartOf="@+id/good2"
+            android:onClick="toGOOD1"
+            app:srcCompat="@drawable/good1"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/good2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_above="@+id/good3"
+            android:layout_marginEnd="71dp"
+            android:layout_toStartOf="@+id/btn_x"
+            android:onClick="toGOOD2"
+            app:srcCompat="@drawable/good2"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/good3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/good1"
+            android:layout_below="@+id/good1"
+            android:layout_marginTop="21dp"
+            android:onClick="toGOOD3"
+            app:srcCompat="@drawable/good3"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/good4"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/good2"
+            android:layout_alignTop="@+id/good3"
+            android:onClick="toGOOD4"
+            app:srcCompat="@drawable/good4"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/good5"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/good3"
+            android:layout_below="@+id/good3"
+            android:layout_marginTop="21dp"
+            android:onClick="toGOOD5"
+            app:srcCompat="@drawable/good5"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/good6"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/good4"
+            android:layout_alignTop="@+id/good5"
+            android:onClick="toGOOD6"
+            app:srcCompat="@drawable/good6"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/btn_x"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="30dp"
+            android:onClick="toGAME"
+            app:srcCompat="@drawable/ic_x"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

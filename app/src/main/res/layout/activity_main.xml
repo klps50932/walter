@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.coyi.walter.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="358dp"
+        android:layout_height="645dp"
+        android:background="@android:color/background_light"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="237dp"
+            android:text="Walter"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="40sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="walk + water = healthy life"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

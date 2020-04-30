@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ach"
+    tools:context="com.example.coyi.walter.ACHIEVEMENT">
+
+    <RelativeLayout
+        android:layout_width="327dp"
+        android:layout_height="584dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignStart="@+id/imageView6"
+            android:layout_alignTop="@+id/imageView5"
+            android:contentDescription="@string/todo"
+            android:onClick="toACH6"
+            app:srcCompat="@drawable/ic_ach6" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignStart="@+id/imageView3"
+            android:layout_below="@+id/imageView2"
+            android:contentDescription="@string/todo"
+            android:onClick="toACH4"
+            app:srcCompat="@drawable/ic_ach4" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_below="@+id/imageView4"
+            android:layout_marginTop="13dp"
+            android:contentDescription="@string/todo"
+            android:onClick="toACH5"
+            app:srcCompat="@drawable/ic_ach5" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignStart="@+id/imageView2"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/todo"
+            android:onClick="toACH3"
+            app:srcCompat="@drawable/ic_ach3" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_marginEnd="19dp"
+            android:contentDescription="@string/todo"
+            android:onClick="toACH2"
+            app:srcCompat="@drawable/ic_ach2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_above="@+id/imageView4"
+            android:layout_marginBottom="17dp"
+            android:layout_marginEnd="33dp"
+            android:layout_toStartOf="@+id/imageView3"
+            android:contentDescription="@string/todo"
+            android:onClick="toACH1"
+            app:srcCompat="@drawable/ic_ach1" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignStart="@+id/imageView5"
+            android:layout_below="@+id/imageView5"
+            android:layout_marginTop="19dp"
+            android:contentDescription="@string/todo"
+            android:onClick="toACH7"
+            app:srcCompat="@drawable/ic_ach7" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignStart="@+id/imageView7"
+            android:layout_alignTop="@+id/imageView"
+            android:contentDescription="@string/todo"
+            android:onClick="toACH8"
+            app:srcCompat="@drawable/ic_ach8" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/imageView3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="33dp"
+            android:contentDescription="@string/todo"
+            android:onClick="toGAME"
+            app:srcCompat="@drawable/ic_x" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

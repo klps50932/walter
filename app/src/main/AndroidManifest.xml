@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coyi.walter">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".START" />
+        <activity android:name=".CREATACCOUNT" />
+        <activity android:name=".WARNING" />
+        <activity android:name=".GAME" />
+        <activity android:name=".SHOP" />
+        <activity android:name=".WATER" />
+        <activity android:name=".WALK" />
+        <activity android:name=".GOOD1" />
+        <activity android:name=".GOOD2" />
+        <activity android:name=".GOOD3" />
+        <activity android:name=".GOOD4" />
+        <activity android:name=".GOOD5" />
+        <activity android:name=".GOOD6" />
+        <activity android:name=".BOOK" />
+        <activity android:name=".ACHIEVEMENT" />
+        <activity android:name=".BAG" />
+        <activity android:name=".ACH1" />
+        <activity android:name=".ACH2" />
+        <activity android:name=".ACH3" />
+        <activity android:name=".ACH4" />
+        <activity android:name=".ACH5" />
+        <activity android:name=".ACH6" />
+        <activity android:name=".ACH7" />
+        <activity android:name=".ACH8" />
+        <activity android:name=".BAG1" />
+        <activity android:name=".BAG2" />
+        <activity android:name=".BAG3" />
+        <activity android:name=".BAG4" />
+        <activity android:name=".BAG5" />
+        <activity android:name=".BAG6" />
+        <activity android:name=".PET1" />
+        <activity android:name=".STORY" />
+        <activity android:name=".EXANGE" />
+        <activity android:name=".PET2" />
+        <activity android:name=".PET7" />
+        <activity android:name=".PET13" />
+        <activity android:name=".PET3" />
+        <activity android:name=".PET4" />
+        <activity android:name=".PET5" />
+        <activity android:name=".PET6" />
+        <activity android:name=".PET8" />
+        <activity android:name=".PET9" />
+        <activity android:name=".PET10" />
+        <activity android:name=".PET11" />
+        <activity android:name=".PET12" />
+        <activity android:name=".PET14" />
+        <activity android:name=".PET15" />
+        <activity android:name=".PET16" />
+        <activity android:name=".PET17" />
+        <activity android:name=".PET18"></activity>
+    </application>
+
+</manifest>
